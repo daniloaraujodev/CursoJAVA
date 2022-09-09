@@ -14,7 +14,7 @@ public class If {
 		if(media <=10 && media >= 7.0) {
 			System.out.println("Parabéns! Você foi Aprovado!");
 		} 
-		if (media >10 ){
+		if(media >10 && media < 0){
 			System.out.println("Você digitou uma nota inválida.");
 		} 
 		if (media <7 && media == 5) {
